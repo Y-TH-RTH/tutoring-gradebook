@@ -1,0 +1,17 @@
+{
+  "name": "gradebook",
+  "version": "1.0.0",
+  "description": "Grade tracker for a tutoring business",
+  "main": "local-server.mjs",
+  "scripts": {
+    "start": "node local-server.mjs"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "@netlify/blobs": "^11.1.8"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "type": "module"
+}
